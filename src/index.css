@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;700&display=swap');
+
+/* Apply Product Sans globally */
+body {
+  font-family: 'Product Sans', sans-serif;
+}
+
+/* global.css or index.css */
+html, body {
+  width: 100%;
+  overflow-x: hidden; 
+  margin: 0;            
+  padding: 0;           
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
